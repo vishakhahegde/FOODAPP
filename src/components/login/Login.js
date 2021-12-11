@@ -23,6 +23,8 @@ const history = useHistory()
     }
     return (
         <>
+        <h2 style={{color:"white"}}>something</h2>
+        <p style={{color:"white"}}>something</p>
 <div class="flex flex-col w-full max-w-md px-4 py-8 bg-white rounded-lg shadow dark:bg-gray-800 sm:px-6 md:px-8 lg:px-10">
     <div class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white">
         Login To Your Account

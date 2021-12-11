@@ -28,6 +28,8 @@ const APP_ID = "2dcdfd64" ;
   }
 return(
     <div>
+      <h2 style={{color:"white"}}>something</h2>
+        <p style={{color:"white"}}>something</p>
   <form className="search-form" onSubmit={getSearch}  >
         <input className="search-bar" type="text" value={search}
              onChange={updateSearch} />

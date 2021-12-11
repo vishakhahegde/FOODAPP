@@ -88,8 +88,8 @@ function Home() {
         </div>
       </div>
       
-      <h1 className="header">BRINGING THE BEST FOOD AT YOUR FINGERTIPS</h1>
-      <h1 className="linebreak">BRINGING THE BEST FOOD AT YOUR FINGERTIPS</h1>
+      <h1 className="header">~BRINGING THE BEST FOOD AT YOUR FINGERTIPS~</h1>
+      <h1 className="linebreak">lskdnwlvoiwviv BRINGING THE BEST FOOD AT YOUR FINGERTIPS jefnviefavievheiqov</h1>
       <p>Where real food and serious flavour are served in abundace</p>
       <p>Where culinary boundaries know no box.</p>
       <p>Where whole-hearted hospitality brings to life the art of gathering.</p>
