@@ -32,10 +32,10 @@ function App() {
      <Route exact path="/Contact" component={Contact}/>
 
     <Switch>
-      <Route exact path="/Register">
+      <Route exact path="/Choose">
         {
           user && user._id ? <Foods/>:<Login/>
-        }
+        }<Foods/>
       </Route>
       <Route path="/Login"><Login setLoginUser={setLoginUser}/></Route>
       <Route path="/Register"><Register/></Route>

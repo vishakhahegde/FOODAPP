@@ -3,43 +3,44 @@ import '../../src/home.css';
 import { Carousel } from 'react-carousel-minimal';
 import React from "react";
 
+
 function Home() {
  const data = [
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
-      caption: "San Francisco"
+      image: "https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg",
+      caption: "Pizza"
     },
     {
-      image: "https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg",
-      caption: "Scotland"
+      image: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/1/07/0/FNK_Pani-Puri_s4x3.jpg.rend.hgtvcom.616.462.suffix/1546894450909.jpeg",
+      caption: "Pani Puri"
     },
     {
-      image: "https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg",
-      caption: "Darjeeling"
+      image: "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p.jpg",
+      caption: "Burger"
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-      caption: "San Francisco"
+      image: "https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__700_0_0_0_auto.jpg",
+      caption: "Masala Dosa"
     },
     {
-      image: "https://i.natgeofe.com/n/f7732389-a045-402c-bf39-cb4eda39e786/scotland_travel_4x3.jpg",
-      caption: "Scotland"
+      image: "https://cdn3.tmbi.com/toh/GoogleImagesPostCard/exps21585_THCA153054D10_15_4b.jpg",
+      caption: "Dessert"
     },
     {
-      image: "https://www.tusktravel.com/blog/wp-content/uploads/2020/07/Best-Time-to-Visit-Darjeeling-for-Honeymoon.jpg",
-      caption: "Darjeeling"
+      image: "https://b.zmtcdn.com/data/pictures/chains/8/51828/b7ba665418e783fcd017225f6719fb79.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      caption: "Tacos"
     },
     {
-      image: "https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx",
-      caption: "San Francisco"
+      image: "https://static.toiimg.com/thumb/54308405.cms?imgsize=510571&width=800&height=800",
+      caption: "Biryani"
     },
     {
-      image: "https://images.ctfassets.net/bth3mlrehms2/6Ypj2Qd3m3jQk6ygmpsNAM/61d2f8cb9f939beed918971b9bc59bcd/Scotland.jpg?w=750&h=422&fl=progressive&q=50&fm=jpg",
-      caption: "Scotland"
+      image: "https://www.shoutmecrunch.com/wp-content/uploads/2020/04/cooked-chiken-masala.jpg",
+      caption: "Chicken Roast"
     },
     {
-      image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
-      caption: "Darjeeling"
+      image: "https://www.thespruceeats.com/thmb/CiSSB0skeoUB66WT-dApsN6Oksc=/3800x2137/smart/filters:no_upscale()/fluffy-waffles-recipe-995798-hero3-95ef22073f8a44bc91fa33a40000f63a.jpg",
+      caption: "Waffles"
     }
   ];
 
@@ -86,6 +87,13 @@ function Home() {
           />
         </div>
       </div>
+      
+      <h1 className="header">BRINGING THE BEST FOOD AT YOUR FINGERTIPS</h1>
+      <h1 className="linebreak">BRINGING THE BEST FOOD AT YOUR FINGERTIPS</h1>
+      <p>Where real food and serious flavour are served in abundace</p>
+      <p>Where culinary boundaries know no box.</p>
+      <p>Where whole-hearted hospitality brings to life the art of gathering.</p>
+      <p>And where feel good and taste go hand in hand</p>
     </div>
   );
 }

@@ -1,3 +1,17 @@
+
+.linebreak {
+    font-family: 'Redacted Script', cursive;
+}
+.header{
+    font-family:'Pacifico',cursive;
+    color: brown;
+}
+p{
+    font-family: 'Pacifico';
+}
+
+
+
 .cont{
     margin-top:200px;
 }
@@ -83,17 +97,6 @@
     border-radius: 4px;
     background-color: transparent;
     border-color: blue;
-}
-.somecontainerbroimsleepy{
-    background-color:rgb(204, 204, 204);
-}
-.Precum{
-    text-align: center;
-    padding-top: 40px;
-    font-size: 30px;
-    font-family: 'Irish Grover', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 }
 .select{
     font-family: 'Irish Grover', cursive;

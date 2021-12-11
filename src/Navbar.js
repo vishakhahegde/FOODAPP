@@ -12,7 +12,7 @@ function Navvy(){
                 <li><Link className="start" to="/Tech" style={{ textDecoration: 'none' }}>Tech Used</Link></li>
                 <li><Link className="start" to="/About" style={{ textDecoration: 'none' }}>About</Link></li>
                 <li><Link className="start" to="/" style={{ textDecoration: 'none' }}>Home</Link></li>
-                <li><Link className="start" to="/Login" style={{ textDecoration: 'none' }}>Login</Link></li>
+                <li><Link className="start" to="/Choose" style={{ textDecoration: 'none' }}>Login</Link></li>
             </ul>
         </nav>
     );
